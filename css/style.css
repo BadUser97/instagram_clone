@@ -1,0 +1,261 @@
+/** SE APLICA UN MARGEN DE 0 PIXELES A TODO EL DOCUMENTO HTML
+ PARA QUE LOS CONTENEDORES OCUPEN EL 100% DE LA PANTALLA **/
+* {
+    margin:0px;
+    
+   }
+
+   body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+    background-color: black;
+ }
+/**
+ESTILIZA EL HEADER DE LA APLICACION HACIENDOLO OCUPAR EL 100% DE LA PANTALLA
+**/
+.header{
+
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+  
+}
+
+/**
+ESTILIZA EL ICONO DE LA CAMARA 
+**/
+
+#camera{
+
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+}
+
+/**
+ESTILIZA EL ICONO DE LA CAMARA AL PASAR EL MOUSE POR ENCIMA INVIRTIENDO SUS COLORES
+Y AL HACER CLICK
+**/
+#camera:hover{
+
+
+    transition-delay: .10ms;
+    cursor: default;
+    background-color: white;
+    color: black;
+    border-radius: 70px;
+
+  }
+
+/**
+ESTILIZA PARRAFO TIPO H2 
+**/
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 4px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+
+/**
+ESTILIZA EL ICONO DE ENVIAR MENSAJE 
+**/
+  
+#send{
+
+    padding: 10px;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+
+/**
+ESTILIZA EL ICONO DE ENVIAR AL PASAR EL MOUSE POR ENCIMA INVIRTIENDO SUS COLORES
+Y AL HACER CLICK
+**/ 
+    
+}
+
+#send:hover{
+
+
+    transition-delay: .10ms;
+    cursor: default;
+    background-color: white;
+    color: black;
+    border-radius: 70px;
+
+  }
+
+/**
+ESTILIZA LOS ICONOS DE NAVEGACION DEL MENU DENTRO DEL FOOTER
+**/
+
+  span{
+
+    padding: 5px;
+    
+
+  }
+
+  /**
+ESTILIZA LOS ICONOS DE NAVEGACION DEL MENU DENTRO DEL FOOTER AL PASAR EL MOUSE
+ POR ENCIMA INVIRTIENDO SUS COLORES
+Y AL HACER CLICK
+**/
+
+  span:hover{
+
+    transition-delay: .10ms;
+    cursor: default;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+
+  }
+
+    /**
+ESTILIZA EL FOOTER Y LO POCISIONA HASTA ABAJO DANDOLE UN POCISIONAMIENTO ESTATICO
+**/
+
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    word-spacing: 20px;
+  }
+
+/** PERSONALIZACION DE LAS CARDS**/
+
+.card {
+  /* Add shadows to create the "card" effect */
+  
+  transition: 0.3s;
+}
+
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+  
+#guardar{
+
+float: right;
+
+}
+
+#guardar:hover{
+
+  transition-delay: .10ms;
+  cursor: default;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+
+}
+
+
+
+#icons2:hover{
+
+  transition-delay: .10ms;
+  cursor: default;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+
+}
+
+
+
+h3{
+
+  padding: 5px;
+  margin-top: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+
+h5{
+
+  padding: 5px;
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  color: white;
+
+}
+
+h6{
+
+  padding: 5px;
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: left;
+  color: white;
+
+}
+
+
+
+
+  /**  MATERIAL DESIGN ICONS RULES **/
+
+   /* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    word-spacing: 100px;
+  }
+
+  .card{
+    margin-left: 300px;
+    margin-right: 300px;
+    
+  }
+  
+}
+
