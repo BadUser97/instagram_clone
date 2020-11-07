@@ -1,6 +1,6 @@
 /** SE APLICA UN MARGEN DE 0 PIXELES A TODO EL DOCUMENTO HTML
  PARA QUE LOS CONTENEDORES OCUPEN EL 100% DE LA PANTALLA **/
-* {
+ * {
     margin:0px;
     
    }
@@ -23,25 +23,35 @@ ESTILIZA EL HEADER DE LA APLICACION HACIENDOLO OCUPAR EL 100% DE LA PANTALLA
     position: fixed;
   
 }
-
 /**
-ESTILIZA EL ICONO DE LA CAMARA 
+ESTILIZA EL ICONO DE LA BUSQUEDA
 **/
 
-#camera{
+#back{
 
     padding: 10px;
     display: block;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
     float: left;
+    
 }
 
+#settings{
+
+    padding: 10px;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+  }
+
 /**
-ESTILIZA EL ICONO DE LA CAMARA AL PASAR EL MOUSE POR ENCIMA INVIRTIENDO SUS COLORES
+ESTILIZA EL ICONO DE LA BUSQUEDA AL PASAR EL MOUSE POR ENCIMA INVIRTIENDO SUS COLORES
 Y AL HACER CLICK
 **/
-#camera:hover{
+#settings:hover{
 
 
     transition-delay: .10ms;
@@ -56,34 +66,35 @@ Y AL HACER CLICK
 ESTILIZA PARRAFO TIPO H2 
 **/
   h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     color: white;
     padding: 4px;
-    display: inline-block;
-    margin: 10px;
-    text-align: center;
+    display: block;
+    margin-top: 20px;
+    float: left;
+    font-size: 20px;
   }
 
 /**
-ESTILIZA EL ICONO DE ENVIAR MENSAJE 
+ESTILIZA EL ICONO DE QR 
 **/
   
-#send{
+#qr{
 
     padding: 10px;
     float: right;
     text-align: center;
     margin-top: 10px;
     display: block;
-  }
+
 /**
-ESTILIZA EL ICONO DE ENVIAR AL PASAR EL MOUSE POR ENCIMA INVIRTIENDO SUS COLORES
+ESTILIZA EL ICONO DE QR AL PASAR EL MOUSE POR ENCIMA INVIRTIENDO SUS COLORES
 Y AL HACER CLICK
 **/ 
     
+}
 
-
-#send:hover{
+#back:hover{
 
 
     transition-delay: .10ms;
@@ -101,6 +112,7 @@ ESTILIZA LOS ICONOS DE NAVEGACION DEL MENU DENTRO DEL FOOTER
   span{
 
     padding: 5px;
+    
     
 
   }
@@ -145,7 +157,8 @@ ESTILIZA EL FOOTER Y LO POCISIONA HASTA ABAJO DANDOLE UN POCISIONAMIENTO ESTATIC
   /* Add shadows to create the "card" effect */
   
   transition: 0.3s;
-  padding-top: 50px;
+  
+  
 }
 
 
@@ -183,6 +196,25 @@ float: right;
 
 }
 
+#buscar{
+
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  float: left;
+  display: block;
+  text-align: left;
+  background-color: rgba(240, 248, 255, 0);
+  border: 0;
+  outline: none;
+  
+ 
+
+}
+
 
 
 h3{
@@ -197,7 +229,7 @@ h3{
 
 h5{
 
-  padding: 5px;
+  padding: 15px;
   margin-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -208,15 +240,173 @@ h5{
 
 h6{
 
-  padding: 5px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 15px;
   text-align: left;
   color: white;
 
 }
 
+#hola{
+
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+#hola2{
+
+   
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+  }
+
+#caja{
+    display: inline-block;
+    padding-top: 20px;
+    
+}
+
+#historias{
+
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -20px;
+    font-family: monospace;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(153, 153, 153);   
+
+}
+hr{
+
+ padding-top: 50px;
+
+}
+
+#info{
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+#name{
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: white;   
+}
+
+#description{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    font-family: monospace;
+    font-size: 13px;
+    text-align: left;
+    color: rgb(153, 153, 153);   
+}
+
+#resume{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: white;   
+}
+
+#detalles{
+    
+    color: white; 
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    word-spacing: 38px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    
+
+
+}
+
+#profile-container {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    float: left;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#boton{
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border: .50;
+    outline: none;
+    font-family: sans-serif;
+    width: 100px;
+
+}
+
+.imgWrapper3 {
+    font-size: 0;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.imgResponsiva,
+.imgWrapper3 .imgResponsiva {
+    display: inline-block;
+    font-size: inherit;
+}
+.imgResponsiva {width: 25%; max-width: 345px;}
+.imgWrapper3 .imgResponsiva {width: 33.3%; max-width: 345px;}
+
+.imgResponsiva img {
+    height: auto;
+    width: 100%;
+}
 
 
 
@@ -258,6 +448,24 @@ h6{
     
   }
 
+  #dashboard{
 
+    margin-left: 300px;
+    margin-right: 300px;
+
+  }
+
+  #cuerpo{
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  #encabezado{
+
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  
 }
 

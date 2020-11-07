@@ -25,23 +25,25 @@ ESTILIZA EL HEADER DE LA APLICACION HACIENDOLO OCUPAR EL 100% DE LA PANTALLA
 }
 
 /**
-ESTILIZA EL ICONO DE LA CAMARA 
+ESTILIZA EL ICONO DE LA BUSQUEDA
 **/
 
-#camera{
+#search{
 
     padding: 10px;
     display: block;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
     float: left;
+    
 }
 
 /**
-ESTILIZA EL ICONO DE LA CAMARA AL PASAR EL MOUSE POR ENCIMA INVIRTIENDO SUS COLORES
+ESTILIZA EL ICONO DE LA BUSQUEDA AL PASAR EL MOUSE POR ENCIMA INVIRTIENDO SUS COLORES
 Y AL HACER CLICK
 **/
-#camera:hover{
+#search:hover{
 
 
     transition-delay: .10ms;
@@ -65,25 +67,25 @@ ESTILIZA PARRAFO TIPO H2
   }
 
 /**
-ESTILIZA EL ICONO DE ENVIAR MENSAJE 
+ESTILIZA EL ICONO DE QR 
 **/
   
-#send{
+#qr{
 
     padding: 10px;
     float: right;
     text-align: center;
     margin-top: 10px;
     display: block;
-  }
+
 /**
-ESTILIZA EL ICONO DE ENVIAR AL PASAR EL MOUSE POR ENCIMA INVIRTIENDO SUS COLORES
+ESTILIZA EL ICONO DE QR AL PASAR EL MOUSE POR ENCIMA INVIRTIENDO SUS COLORES
 Y AL HACER CLICK
 **/ 
     
+}
 
-
-#send:hover{
+#qr:hover{
 
 
     transition-delay: .10ms;
@@ -101,6 +103,7 @@ ESTILIZA LOS ICONOS DE NAVEGACION DEL MENU DENTRO DEL FOOTER
   span{
 
     padding: 5px;
+    
     
 
   }
@@ -145,7 +148,8 @@ ESTILIZA EL FOOTER Y LO POCISIONA HASTA ABAJO DANDOLE UN POCISIONAMIENTO ESTATIC
   /* Add shadows to create the "card" effect */
   
   transition: 0.3s;
-  padding-top: 50px;
+  
+  
 }
 
 
@@ -180,6 +184,25 @@ float: right;
   background-color: white;
   color: black;
   border-radius: 15px;
+
+}
+
+#buscar{
+
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  float: left;
+  display: block;
+  text-align: left;
+  background-color: rgba(240, 248, 255, 0);
+  border: 0;
+  outline: none;
+  
+ 
 
 }
 
